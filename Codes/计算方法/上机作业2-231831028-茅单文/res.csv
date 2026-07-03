@@ -1,0 +1,25 @@
+Results of Interpolation using partial data points and Error
+x_point&y_origin&Lagrange IP res&Lagrange Error&Cubic Spline res&Cubic Spline Error\\
+0&17.2&36.1&18.9&19.6&2.4\\
+2&16.4&14.8&-1.6&16.5&0.1\\
+4&16.1&16.4&0.3&16.9&0.8\\
+6&16.8&16.7&-0.1&17.0&0.2\\
+8&18.9&18.9&0.0&18.8&-0.1\\
+10&22.1&22.1&-0.0&21.2&-0.9\\
+12&25.0&25.0&0.0&24.0&-1.0\\
+14&26.3&26.3&-0.0&25.7&-0.6\\
+16&25.2&25.2&0.0&25.5&0.3\\
+18&22.4&22.3&-0.1&23.8&1.4\\
+20&20.1&20.4&0.3&20.2&0.1\\
+22&18.2&16.6&-1.6&19.3&1.1\\
+
+Error Analysis
+Method & Average Error & MSE & Max Absolute Error\\
+Lagrange_Uni& -0.000000 & 0.000000 & 0.000000\\
+Lagrange_Cheb& 0.000000 & 0.000000 & 0.000000\\
+CubicSpline_Uni& 0.006251 & 0.001247 & 0.200651\\
+CubicSpline_Cheb& -0.004166 & 0.000435 & 0.059960\\
+Lagrange_Uni_Perturb& -3729.483355 & 449709037.527740 & 165939.522841\\
+Lagrange_Cheb_Perturb& 0.029906 & 0.075985 & 2.583515\\
+CubicSpline_Uni_Perturb& -0.001110 & 0.006374 & 0.205854\\
+CubicSpline_Cheb_Perturb& -0.002002 & 0.007231 & 0.264165\\
